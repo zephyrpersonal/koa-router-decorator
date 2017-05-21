@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.4
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/zhangxin/github/koa-router-decorator',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/zhangxin/.npm/koa-router-decorator/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/zhangxin/.npm correctMkdir not in flight; initializing
+10 info lifecycle koa-router-decorator@1.0.0~prepublish: koa-router-decorator@1.0.0
+11 silly lifecycle koa-router-decorator@1.0.0~prepublish: no script for prepublish, continuing
+12 info lifecycle koa-router-decorator@1.0.0~prepare: koa-router-decorator@1.0.0
+13 silly lifecycle koa-router-decorator@1.0.0~prepare: no script for prepare, continuing
+14 verbose tar pack [ '/Users/zhangxin/.npm/koa-router-decorator/1.0.0/package.tgz',
+14 verbose tar pack   '/Users/zhangxin/github/koa-router-decorator' ]
+15 verbose tarball /Users/zhangxin/.npm/koa-router-decorator/1.0.0/package.tgz
+16 verbose folder /Users/zhangxin/github/koa-router-decorator
+17 verbose addLocalTarball adding from inside cache /Users/zhangxin/.npm/koa-router-decorator/1.0.0/package.tgz
+18 verbose correctMkdir /Users/zhangxin/.npm correctMkdir not in flight; initializing
+19 silly cache afterAdd koa-router-decorator@1.0.0
+20 verbose afterAdd /Users/zhangxin/.npm/koa-router-decorator/1.0.0/package/package.json not in flight; writing
+21 verbose correctMkdir /Users/zhangxin/.npm correctMkdir not in flight; initializing
+22 verbose afterAdd /Users/zhangxin/.npm/koa-router-decorator/1.0.0/package/package.json written
+23 silly publish { name: 'koa-router-decorator',
+23 silly publish   version: '1.0.0',
+23 silly publish   description: '',
+23 silly publish   main: 'index.js',
+23 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+23 silly publish   repository:
+23 silly publish    { type: 'git',
+23 silly publish      url: 'git+https://github.com/zephyrpersonal/koa-router-decorator.git' },
+23 silly publish   keywords: [ 'koa', 'koa-router', 'es7', 'babel', 'decorator' ],
+23 silly publish   author: { name: 'zephyr' },
+23 silly publish   license: 'ISC',
+23 silly publish   bugs: { url: 'https://github.com/zephyrpersonal/koa-router-decorator/issues' },
+23 silly publish   homepage: 'https://github.com/zephyrpersonal/koa-router-decorator#readme',
+23 silly publish   dependencies:
+23 silly publish    { 'fs-extra': '^3.0.1',
+23 silly publish      'koa-router': '^7.1.1',
+23 silly publish      'lodash.isfunction': '^3.0.8' },
+23 silly publish   gitHead: '70cf395d5fc23ed64b36705fc716fdf6df8cb552',
+23 silly publish   readme: 'ERROR: No README data found!',
+23 silly publish   _id: 'koa-router-decorator@1.0.0',
+23 silly publish   _shasum: 'bbf9b7d71fe2677156f956c02b3323e4387e2da7',
+23 silly publish   _from: '.' }
+24 info lifecycle koa-router-decorator@1.0.0~prepublishOnly: koa-router-decorator@1.0.0
+25 silly lifecycle koa-router-decorator@1.0.0~prepublishOnly: no script for prepublishOnly, continuing
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name koa-router-decorator
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'koa-router-decorator',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'koa-router-decorator',
+30 silly mapToRegistry   name: 'koa-router-decorator',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/koa-router-decorator
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /Users/zhangxin/.npm/koa-router-decorator/1.0.0/package.tgz
+34 verbose request uri https://registry.npmjs.org/koa-router-decorator
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 21:21:39
+37 verbose request using bearer token for auth
+38 verbose request id 34370d32285b8fc3
+39 http request PUT https://registry.npmjs.org/koa-router-decorator
+40 http 403 https://registry.npmjs.org/koa-router-decorator
+41 verbose headers { 'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '114',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Sun, 21 May 2017 13:21:46 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-nrt6122-NRT',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1495372906.047198,VS0,VE211',
+41 verbose headers   vary: 'Accept-Encoding' }
+42 verbose request invalidating /Users/zhangxin/.npm/registry.npmjs.org/koa-router-decorator on PUT
+43 error publish Failed PUT 403
+44 verbose stack Error: you do not have permission to publish "koa-router-decorator". Are you logged in as the correct user? : koa-router-decorator
+44 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:304:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:292:14)
+44 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:14)
+44 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:186:22)
+44 verbose stack     at emitTwo (events.js:106:13)
+44 verbose stack     at Request.emit (events.js:194:7)
+44 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+44 verbose stack     at emitOne (events.js:96:13)
+44 verbose stack     at Request.emit (events.js:191:7)
+44 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12)
+45 verbose statusCode 403
+46 verbose pkgid koa-router-decorator
+47 verbose cwd /Users/zhangxin/github/koa-router-decorator
+48 error Darwin 14.5.0
+49 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+50 error node v7.7.4
+51 error npm  v4.1.2
+52 error code E403
+53 error you do not have permission to publish "koa-router-decorator". Are you logged in as the correct user? : koa-router-decorator
+54 error If you need help, you may report this error at:
+54 error     <https://github.com/npm/npm/issues>
+55 verbose exit [ 1, true ]
