@@ -1,0 +1,31 @@
+{
+  "name": "koa-router-decorator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zephyrpersonal/koa-router-decorator.git"
+  },
+  "keywords": [
+    "koa",
+    "koa-router",
+    "es7",
+    "babel",
+    "decorator"
+  ],
+  "author": "zephyr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zephyrpersonal/koa-router-decorator/issues"
+  },
+  "homepage": "https://github.com/zephyrpersonal/koa-router-decorator#readme",
+  "dependencies": {
+    "fs-extra": "^3.0.1",
+    "koa-router": "^7.1.1",
+    "lodash.isfunction": "^3.0.8"
+  }
+}
